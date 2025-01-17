@@ -37,7 +37,7 @@ export default function Profile() {
       } else {
         setError('Logout failed');
       }
-    } catch (error) {
+    } catch {
       setError('An error occurred during logout');
     }
   };

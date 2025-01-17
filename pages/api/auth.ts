@@ -44,7 +44,7 @@ export default async function handler(
       success: false,
       message: 'Invalid credentials'
     })
-  } catch (error) {
+  } catch {
     return res.status(500).json({
       success: false,
       message: 'Authentication failed'
